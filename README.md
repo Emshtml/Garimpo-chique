@@ -30,12 +30,12 @@
     <h2>Clientes felizes</h2>
     <div class="depoimento">
       <img src="images/cliente1.jpg" alt="Cliente satisfeita">
-      <blockquote>“Veio embalada, cheirosa e perfeita! Compro de novo com certeza.”</blockquote>
+      <blockquote>“entrega rápida e perfeita a peça e super linda! Compro de novo com certeza.”</blockquote>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Garimpo Chique. Todos os direitos reservados.</p>
+    <p>&copy; 2020 Garimpo Chique. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
