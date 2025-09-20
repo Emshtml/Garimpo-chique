@@ -1,41 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Garimpo Chique</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <img src="images/logo.png" alt="Garimpo Chique" class="logo">
-    <h1>Moda com História</h1>
-    <p>Roupas seminovas com estilo e propósito</p>
-  </header>
+# Garimpo Chique 👗♻️
 
-  <section class="destaques">
-    <h2>Destaques da Semana</h2>
-    <div class="produto">
-      <img src="images/produto1.jpg" alt="Jaqueta Jeans">
-      <h3>Jaqueta jeans oversized</h3>
-      <p>R$59,90</p>
-    </div>
-  </section>
+Moda com história: roupas seminovas com estilo, propósito e sustentabilidade.
 
-  <section class="sustentabilidade">
-    <h2>Por que escolher seminovas?</h2>
-    <p>Cada peça reutilizada economiza água, reduz resíduos e ajuda o planeta. A moda circular é o futuro.</p>
-  </section>
-
-  <section class="depoimentos">
-    <h2>Clientes felizes</h2>
-    <div class="depoimento">
-      <img src="images/cliente1.jpg" alt="Cliente satisfeita">
-      <blockquote>“entrega rápida e perfeita a peça e super linda! Compro de novo com certeza.”</blockquote>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2020 Garimpo Chique. Todos os direitos reservados.</p>
-  </footer>
-</body>
-</html>
+## 🚀 Como visualizar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Emshtml/Garimpo-chique.git
+   cd Garimpo-chique
