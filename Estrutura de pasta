@@ -1,0 +1,21 @@
+Garimpo-chique/
+│
+├─ backend/                 # API e banco de dados
+│   ├─ app.js               # Servidor Node.js
+│   ├─ routes/
+│   │    └─ products.js     # Rotas de produtos
+│   ├─ models/
+│   │    └─ Product.js      # Modelo de produto
+│   └─ database/
+│        └─ db.json         # Banco de dados JSON simples
+│
+├─ frontend/                # Interface web
+│   ├─ index.html
+│   ├─ style.css
+│   └─ script.js
+│
+├─ assets/
+│   ├─ images/              # Fotos dos produtos
+│
+├─ README.md
+└─ .gitignore
