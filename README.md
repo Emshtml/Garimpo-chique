@@ -1,4 +1,4 @@
-# Garimpo Chique
+ Garimpo Chique
 
 E-commerce de moda sustentável com foco em roupas seminovas.
 
