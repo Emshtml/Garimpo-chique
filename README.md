@@ -1,30 +1,38 @@
-Garimpo Chique
+# Garimpo Chique
+
 E-commerce de moda sustentável com foco em roupas seminovas.
 
- Tecnologias
+Tecnologias
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js, Express
-- Banco de dados: JSON (simples para MVP)
+- Banco de dados:** JSON (MVP) / Futuro upgrade para MongoDB ou PostgreSQL
+- Hospedagem: Local / Futuro deploy em Vercel, Netlify ou Heroku
 
- Estrutura
-- frontend/: Interface do usuário
-- backend/: API e banco de dados
-- assets/images/: Fotos dos produtos
+Estrutura do Projeto
+Garimpo-chique/
+├─ backend/ # API e banco de dados
+│ ├─ app.js
+│ ├─ routes/
+│ ├─ models/
+│ └─ database/
+├─ frontend/ # Interface web
+│ ├─ index.html
+│ ├─ style.css
+│ └─ script.js
+├─ assets/images/ # Fotos dos produtos
+└─ README.md
 
- Como rodar
+ Funcionalidades
+- Exibição de produtos com imagem, descrição e preço
+- Adição ao carrinho (frontend)
+- API REST para listagem de produtos
+
+ Instalação e execução
 1. Clonar o repositório:
-   git clone https://github.com/Emshtml/Garimpo-chique.git
-2. Instalar dependências no backend:
-   cd backend
-   npm install express cors
-3. Rodar o servidor:
-   node app.js
-4. Abrir frontend/index.html no navegador.
-
- Contribuição
-- Criar branch com sua feature
-- Abrir Pull Request
-- Revisão e merge após aprovação
-
- Licença
-MIT License
+```bash
+git clone https://github.com/Emshtml/Garimpo-chique.git
+cd backend
+npm install express cors
+cd backend
+npm install express cors
+node app.js
