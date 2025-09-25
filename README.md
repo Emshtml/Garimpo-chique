@@ -1,17 +1,17 @@
-# Garimpo Chique
+Garimpo Chique
 E-commerce de moda sustentável com foco em roupas seminovas.
 
-## Tecnologias
+ Tecnologias
 - Frontend: HTML, CSS, JavaScript
 - Backend: Node.js, Express
 - Banco de dados: JSON (simples para MVP)
 
-## Estrutura
+ Estrutura
 - frontend/: Interface do usuário
 - backend/: API e banco de dados
 - assets/images/: Fotos dos produtos
 
-## Como rodar
+ Como rodar
 1. Clonar o repositório:
    git clone https://github.com/Emshtml/Garimpo-chique.git
 2. Instalar dependências no backend:
@@ -21,10 +21,10 @@ E-commerce de moda sustentável com foco em roupas seminovas.
    node app.js
 4. Abrir frontend/index.html no navegador.
 
-## Contribuição
+ Contribuição
 - Criar branch com sua feature
 - Abrir Pull Request
 - Revisão e merge após aprovação
 
-## Licença
+ Licença
 MIT License
