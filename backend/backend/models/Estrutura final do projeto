@@ -1,0 +1,16 @@
+backend/
+├─ app.js
+├─ routes/
+│  ├─ produtos.js
+│  └─ usuarios.js
+├─ controllers/
+│  ├─ produtosController.js
+│  └─ usuariosController.js
+├─ database/
+│  ├─ produtos.json
+│  └─ usuarios.json
+├─ utils/
+│  └─ fileHandler.js
+├─ .env.example
+├─ package.json
+└─ README.md
