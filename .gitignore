@@ -13,7 +13,7 @@ Makefile.in
 
 autom4te.cache
 /autoscan.log
-/autoscan-*.log
+/autoscan-.log
 /aclocal.m4
 /compile
 /config.cache
