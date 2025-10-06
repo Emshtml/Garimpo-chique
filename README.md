@@ -10,9 +10,6 @@ Tecnologias
 
 Estrutura do Projeto
 Garimpo-chique/
-├─ backend/ # API e banco de dados
-│ ├─ app.js
-│ ├─ routes/
 │ ├─ models/
 │ └─ database/
 ├─ frontend/ # Interface web
