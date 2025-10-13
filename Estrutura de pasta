@@ -1,21 +1,19 @@
 Garimpo-chique/
 │
-├─ backend/                 # API e banco de dados
-│   ├─ app.js               # Servidor Node.js
-│   ├─ routes/
-│   │    └─ products.js     # Rotas de produtos
-│   ├─ models/
-│   │    └─ Product.js      # Modelo de produto
-│   └─ database/
-│        └─ db.json         # Banco de dados JSON simples
-│
-├─ frontend/                # Interface web
+├─ frontend/
 │   ├─ index.html
 │   ├─ style.css
 │   └─ script.js
 │
-├─ assets/
-│   ├─ images/              # Fotos dos produtos
+├─ backend/                 # (mantém, mas o Vercel vai ignorar)
+│   ├─ app.js
+│   ├─ routes/
+│   ├─ models/
+│   └─ database/
 │
+├─ assets/
+│   └─ images/
+│
+├─ vercel.json
 ├─ README.md
 └─ .gitignore
