@@ -1,4 +1,8 @@
 {
+  "name": "garimpo-chique",
+  "version": "1.0.0",
+  "description": "Loja Garimpo Chique 👗 - Moda sustentável e estilosa.",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
