@@ -1,26 +1,155 @@
+/* ======================
+   Estilo principal Garimpo Chique
+   ====================== */
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  text-align: center;
-  background: #fdf7f9;
+  background: #fffafc;
+  font-family: "Poppins", sans-serif;
   color: #333;
 }
 
-header {
-  background: #f6c1d1;
-  padding: 2rem;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 15px;
+  text-align: center;
 }
 
+/* Header */
+header h1 {
+  font-size: 2.4rem;
+  color: #e91e63;
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Produtos */
+.products h2,
+.cart h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #d81b60;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Botões */
 button {
-  padding: 0.8rem 1.5rem;
-  background: #d66c8a;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
-button:hover {
-  background: #b2506e;
+.btn-add,
+.btn-finalize {
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-add:hover,
+.btn-finalize:hover {
+  background: #c2185b;
+}
+
+.btn-remove {
+  background: #999;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.btn-remove:hover {
+  background: #777;
+}
+
+/* Carrinho */
+.cart {
+  margin-top: 3rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Mensagem de pedido completo */
+.order-complete {
+  background: #dff0d8;
+  color: #3c763d;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.9rem;
+  }
+
+  .btn-add {
+    width: 100%;
+  }
 }
