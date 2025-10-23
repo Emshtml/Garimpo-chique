@@ -1,1 +1,4 @@
-public/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://garimpo-chique.vercel.app/sitemap.xml
